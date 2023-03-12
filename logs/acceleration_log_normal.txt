@@ -1,0 +1,89 @@
+Build started...
+1>FastUpToDate: Comparing timestamps of inputs and outputs: (ClassLibrary3)
+1>FastUpToDate:     No inputs are newer than earliest output 'D:\acceleration\sample\ClassLibrary3\bin\Debug\net462\ClassLibrary3.dll' (2023-03-19 14:10:36.583). Newest input is 'D:\acceleration\sample\Directory.Build.props' (2023-03-19 14:07:51.348). (ClassLibrary3)
+1>FastUpToDate: Project is up-to-date. (ClassLibrary3)
+2>FastUpToDate: Checking configuration Debug|AnyCPU|net462: (ClassLibrary2)
+2>FastUpToDate:     Comparing timestamps of inputs and outputs: (ClassLibrary2)
+2>FastUpToDate: Input Compile item 'D:\acceleration\sample\ClassLibrary2\Class2.cs' is newer (2023-03-19 14:10:39.993) than earliest output 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll' (2023-03-19 14:10:36.586), not up-to-date. (ClassLibrary2)
+2>------ Build started: Project: ClassLibrary2, Configuration: Debug Any CPU ------
+2>Build started 19.03.2023 14:10:41.
+2>Target DispatchToInnerBuilds:
+2>  Target GenerateTargetFrameworkMonikerAttribute:
+2>    Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+2>  Target CoreGenerateAssemblyInfo:
+2>    Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+2>  Target CoreCompile:
+2>    CompilerServer: server - server processed compilation - ad22bdca-76c9-4929-9310-ac5af6b96997
+2>  Target CopyFilesToOutputDirectory:
+2>    Copying file from "D:\acceleration\sample\ClassLibrary2\obj\Debug\net462\ClassLibrary2.dll" to "D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll".
+2>    ClassLibrary2 -> D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll
+2>    Copying file from "D:\acceleration\sample\ClassLibrary2\obj\Debug\net462\ClassLibrary2.pdb" to "D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.pdb".
+2>  Target GenerateTargetFrameworkMonikerAttribute:
+2>    Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+2>  Target CoreGenerateAssemblyInfo:
+2>    Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+2>  Target CoreCompile:
+2>    CompilerServer: server - server processed compilation - 8b15e6ef-8af6-449d-b943-c0b158f84fa9
+2>  Target GenerateBuildDependencyFile:
+2>    Skipping target "GenerateBuildDependencyFile" because all output files are up-to-date with respect to the input files.
+2>  Target CopyFilesToOutputDirectory:
+2>    Copying file from "D:\acceleration\sample\ClassLibrary2\obj\Debug\net6.0-windows\ClassLibrary2.dll" to "D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.dll".
+2>    ClassLibrary2 -> D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.dll
+2>    Copying file from "D:\acceleration\sample\ClassLibrary2\obj\Debug\net6.0-windows\ClassLibrary2.pdb" to "D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.pdb".
+2>
+2>Build succeeded.
+2>    0 Warning(s)
+2>    0 Error(s)
+2>
+2>Time Elapsed 00:00:00.30
+3>FastUpToDate: Checking configuration Debug|AnyCPU|net462: (ConsoleApp3)
+3>FastUpToDate:     Comparing timestamps of inputs and outputs: (ConsoleApp3)
+3>FastUpToDate:         No inputs are newer than earliest output 'D:\acceleration\sample\ConsoleApp3\bin\Debug\net462\ConsoleApp3.exe' (2023-03-19 14:10:36.793). Newest input is 'D:\acceleration\sample\ClassLibrary2\obj\Debug\net462\ref\ClassLibrary2.dll' (2023-03-19 14:10:36.586). (ConsoleApp3)
+3>FastUpToDate: Checking configuration Debug|AnyCPU|net6.0-windows: (ConsoleApp3)
+3>FastUpToDate:     Comparing timestamps of inputs and outputs: (ConsoleApp3)
+3>FastUpToDate:         No inputs are newer than earliest output 'D:\acceleration\sample\ConsoleApp3\bin\Debug\net6.0-windows\ConsoleApp3.dll' (2023-03-19 14:10:36.877). Newest input is 'D:\acceleration\sample\ClassLibrary2\obj\Debug\net6.0-windows\ref\ClassLibrary2.dll' (2023-03-19 14:10:36.664). (ConsoleApp3)
+3>FastUpToDate: Copying 4 files to accelerate build (https://aka.ms/vs-build-acceleration): (ConsoleApp3)
+3>FastUpToDate:     From 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.pdb' to 'D:\acceleration\sample\ConsoleApp3\bin\Debug\net462\ClassLibrary2.pdb'. (ConsoleApp3)
+3>FastUpToDate:     From 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll' to 'D:\acceleration\sample\ConsoleApp3\bin\Debug\net462\ClassLibrary2.dll'. (ConsoleApp3)
+3>FastUpToDate:     From 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.pdb' to 'D:\acceleration\sample\ConsoleApp3\bin\Debug\net6.0-windows\ClassLibrary2.pdb'. (ConsoleApp3)
+3>FastUpToDate:     From 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.dll' to 'D:\acceleration\sample\ConsoleApp3\bin\Debug\net6.0-windows\ClassLibrary2.dll'. (ConsoleApp3)
+3>FastUpToDate: Build acceleration copied 4 files. (ConsoleApp3)
+3>FastUpToDate: Project is up-to-date. (ConsoleApp3)
+4>FastUpToDate: Checking configuration Debug|AnyCPU|net462: (ConsoleApp2)
+4>FastUpToDate:     Comparing timestamps of inputs and outputs: (ConsoleApp2)
+4>FastUpToDate:         No inputs are newer than earliest output 'D:\acceleration\sample\ConsoleApp2\bin\Debug\net462\ConsoleApp2.exe' (2023-03-19 14:10:36.789). Newest input is 'D:\acceleration\sample\ClassLibrary2\obj\Debug\net462\ref\ClassLibrary2.dll' (2023-03-19 14:10:36.586). (ConsoleApp2)
+4>FastUpToDate: Checking configuration Debug|AnyCPU|net6.0-windows: (ConsoleApp2)
+4>FastUpToDate:     Comparing timestamps of inputs and outputs: (ConsoleApp2)
+4>FastUpToDate:         No inputs are newer than earliest output 'D:\acceleration\sample\ConsoleApp2\bin\Debug\net6.0-windows\ConsoleApp2.dll' (2023-03-19 14:10:36.877). Newest input is 'D:\acceleration\sample\ClassLibrary2\obj\Debug\net6.0-windows\ref\ClassLibrary2.dll' (2023-03-19 14:10:36.664). (ConsoleApp2)
+4>FastUpToDate: Copying 4 files to accelerate build (https://aka.ms/vs-build-acceleration): (ConsoleApp2)
+4>FastUpToDate:     From 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.pdb' to 'D:\acceleration\sample\ConsoleApp2\bin\Debug\net462\ClassLibrary2.pdb'. (ConsoleApp2)
+4>FastUpToDate:     From 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll' to 'D:\acceleration\sample\ConsoleApp2\bin\Debug\net462\ClassLibrary2.dll'. (ConsoleApp2)
+4>FastUpToDate:     From 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.pdb' to 'D:\acceleration\sample\ConsoleApp2\bin\Debug\net6.0-windows\ClassLibrary2.pdb'. (ConsoleApp2)
+4>FastUpToDate:     From 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.dll' to 'D:\acceleration\sample\ConsoleApp2\bin\Debug\net6.0-windows\ClassLibrary2.dll'. (ConsoleApp2)
+4>FastUpToDate: Build acceleration copied 4 files. (ConsoleApp2)
+4>FastUpToDate: Project is up-to-date. (ConsoleApp2)
+5>FastUpToDate: Comparing timestamps of inputs and outputs: (ClassLibrary1)
+5>FastUpToDate:     No inputs are newer than earliest output 'D:\acceleration\sample\ClassLibrary1\bin\Debug\net462\ClassLibrary1.dll' (2023-03-19 14:10:36.793). Newest input is 'D:\acceleration\sample\ClassLibrary2\obj\Debug\net462\ref\ClassLibrary2.dll' (2023-03-19 14:10:36.586). (ClassLibrary1)
+5>FastUpToDate: Copying 2 files to accelerate build (https://aka.ms/vs-build-acceleration): (ClassLibrary1)
+5>FastUpToDate:     From 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.pdb' to 'D:\acceleration\sample\ClassLibrary1\bin\Debug\net462\ClassLibrary2.pdb'. (ClassLibrary1)
+5>FastUpToDate:     From 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll' to 'D:\acceleration\sample\ClassLibrary1\bin\Debug\net462\ClassLibrary2.dll'. (ClassLibrary1)
+5>FastUpToDate: Build acceleration copied 2 files. (ClassLibrary1)
+5>FastUpToDate: Project is up-to-date. (ClassLibrary1)
+6>FastUpToDate: Checking configuration Debug|AnyCPU|net462: (ConsoleApp1)
+6>FastUpToDate:     Comparing timestamps of inputs and outputs: (ConsoleApp1)
+6>FastUpToDate:         No inputs are newer than earliest output 'D:\acceleration\sample\ConsoleApp1\bin\Debug\net462\ConsoleApp1.exe' (2023-03-19 14:10:37.165). Newest input is 'D:\acceleration\sample\ClassLibrary1\obj\Debug\net462\ref\ClassLibrary1.dll' (2023-03-19 14:10:36.793). (ConsoleApp1)
+6>FastUpToDate: Checking configuration Debug|AnyCPU|net6.0-windows: (ConsoleApp1)
+6>FastUpToDate:     Comparing timestamps of inputs and outputs: (ConsoleApp1)
+6>FastUpToDate:         No inputs are newer than earliest output 'D:\acceleration\sample\ConsoleApp1\bin\Debug\net6.0-windows\ConsoleApp1.dll' (2023-03-19 14:10:36.943). Newest input is 'D:\acceleration\sample\ClassLibrary1\obj\Debug\net462\ref\ClassLibrary1.dll' (2023-03-19 14:10:36.793). (ConsoleApp1)
+6>FastUpToDate: Copying 6 files to accelerate build (https://aka.ms/vs-build-acceleration): (ConsoleApp1)
+6>FastUpToDate:     From 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.pdb' to 'D:\acceleration\sample\ConsoleApp1\bin\Debug\net462\ClassLibrary2.pdb'. (ConsoleApp1)
+6>FastUpToDate:     From 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll' to 'D:\acceleration\sample\ConsoleApp1\bin\Debug\net462\ClassLibrary2.dll'. (ConsoleApp1)
+6>FastUpToDate:     From 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.pdb' to 'D:\acceleration\sample\ConsoleApp1\bin\Debug\net6.0-windows\ClassLibrary2.pdb'. (ConsoleApp1)
+6>FastUpToDate:     From 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.dll' to 'D:\acceleration\sample\ConsoleApp1\bin\Debug\net6.0-windows\ClassLibrary2.dll'. (ConsoleApp1)
+6>FastUpToDate:     From 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.pdb' to 'D:\acceleration\sample\ConsoleApp1\bin\Debug\net6.0-windows\ClassLibrary2.pdb'. (ConsoleApp1)
+6>FastUpToDate:     From 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll' to 'D:\acceleration\sample\ConsoleApp1\bin\Debug\net6.0-windows\ClassLibrary2.dll'. (ConsoleApp1)
+6>FastUpToDate: Build acceleration copied 6 files. (ConsoleApp1)
+6>FastUpToDate: Project is up-to-date. (ConsoleApp1)
+========== Build: 1 succeeded, 0 failed, 5 up-to-date, 0 skipped ==========
+========== Build started at 2:10 PM and took 00,613 seconds ==========
+Visual Studio accelerated 4 project(s), copying 16 file(s). See https://aka.ms/vs-build-acceleration.

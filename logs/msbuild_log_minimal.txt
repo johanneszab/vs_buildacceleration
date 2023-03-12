@@ -1,0 +1,54 @@
+Build started...
+1>FastUpToDate: Comparing timestamps of inputs and outputs: (ClassLibrary3)
+1>FastUpToDate:     No inputs are newer than earliest output 'D:\acceleration\sample\ClassLibrary3\bin\Debug\net462\ClassLibrary3.dll' (2023-03-19 13:56:24.560). Newest input is 'D:\acceleration\sample\Directory.Build.props' (2023-03-19 13:56:18.368). (ClassLibrary3)
+1>FastUpToDate: Project is up-to-date. (ClassLibrary3)
+2>FastUpToDate: Checking configuration Debug|AnyCPU|net462: (ClassLibrary2)
+2>FastUpToDate:     Comparing timestamps of inputs and outputs: (ClassLibrary2)
+2>FastUpToDate: Input Compile item 'D:\acceleration\sample\ClassLibrary2\Class2.cs' is newer (2023-03-19 13:56:42.507) than earliest output 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll' (2023-03-19 13:56:24.565), not up-to-date. (ClassLibrary2)
+2>------ Build started: Project: ClassLibrary2, Configuration: Debug Any CPU ------
+2>ClassLibrary2 -> D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll
+2>ClassLibrary2 -> D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.dll
+3>FastUpToDate: Checking configuration Debug|AnyCPU|net462: (ConsoleApp3)
+3>FastUpToDate:     Comparing timestamps of inputs and outputs: (ConsoleApp3)
+3>FastUpToDate:         No inputs are newer than earliest output 'D:\acceleration\sample\ConsoleApp3\bin\Debug\net462\ConsoleApp3.exe' (2023-03-19 13:56:24.813). Newest input is 'D:\acceleration\sample\ClassLibrary2\obj\Debug\net462\ref\ClassLibrary2.dll' (2023-03-19 13:56:24.565). (ConsoleApp3)
+3>FastUpToDate:     Comparing timestamps of copy marker inputs and outputs: (ConsoleApp3)
+3>FastUpToDate:         Write timestamp on output marker is 2023-03-19 13:56:24.818 on 'D:\acceleration\sample\ConsoleApp3\obj\Debug\net462\ConsoleApp3.csproj.CopyComplete'. (ConsoleApp3)
+3>FastUpToDate: Input marker 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll' is newer (2023-03-19 13:56:43.845) than output marker 'D:\acceleration\sample\ConsoleApp3\obj\Debug\net462\ConsoleApp3.csproj.CopyComplete' (2023-03-19 13:56:24.818), not up-to-date. (ConsoleApp3)
+3>FastUpToDate: This project appears to be a candidate for build acceleration. To opt in, set the 'AccelerateBuildsInVisualStudio' MSBuild property to 'true'. See https://aka.ms/vs-build-acceleration. (ConsoleApp3)
+3>------ Build started: Project: ConsoleApp3, Configuration: Debug Any CPU ------
+4>FastUpToDate: Checking configuration Debug|AnyCPU|net462: (ConsoleApp2)
+4>FastUpToDate:     Comparing timestamps of inputs and outputs: (ConsoleApp2)
+4>FastUpToDate:         No inputs are newer than earliest output 'D:\acceleration\sample\ConsoleApp2\bin\Debug\net462\ConsoleApp2.exe' (2023-03-19 13:56:24.730). Newest input is 'D:\acceleration\sample\ClassLibrary2\obj\Debug\net462\ref\ClassLibrary2.dll' (2023-03-19 13:56:24.565). (ConsoleApp2)
+4>FastUpToDate:     Comparing timestamps of copy marker inputs and outputs: (ConsoleApp2)
+4>FastUpToDate:         Write timestamp on output marker is 2023-03-19 13:56:24.732 on 'D:\acceleration\sample\ConsoleApp2\obj\Debug\net462\ConsoleApp2.csproj.CopyComplete'. (ConsoleApp2)
+4>FastUpToDate: Input marker 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll' is newer (2023-03-19 13:56:43.845) than output marker 'D:\acceleration\sample\ConsoleApp2\obj\Debug\net462\ConsoleApp2.csproj.CopyComplete' (2023-03-19 13:56:24.732), not up-to-date. (ConsoleApp2)
+4>FastUpToDate: This project appears to be a candidate for build acceleration. To opt in, set the 'AccelerateBuildsInVisualStudio' MSBuild property to 'true'. See https://aka.ms/vs-build-acceleration. (ConsoleApp2)
+4>------ Build started: Project: ConsoleApp2, Configuration: Debug Any CPU ------
+5>FastUpToDate: Comparing timestamps of inputs and outputs: (ClassLibrary1)
+5>FastUpToDate:     No inputs are newer than earliest output 'D:\acceleration\sample\ClassLibrary1\bin\Debug\net462\ClassLibrary1.dll' (2023-03-19 13:56:24.731). Newest input is 'D:\acceleration\sample\ClassLibrary2\obj\Debug\net462\ref\ClassLibrary2.dll' (2023-03-19 13:56:24.565). (ClassLibrary1)
+5>FastUpToDate: Comparing timestamps of copy marker inputs and outputs: (ClassLibrary1)
+5>FastUpToDate:     Write timestamp on output marker is 2023-03-19 13:56:24.733 on 'D:\acceleration\sample\ClassLibrary1\obj\Debug\net462\ClassLibrary1.csproj.CopyComplete'. (ClassLibrary1)
+5>FastUpToDate: Input marker 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll' is newer (2023-03-19 13:56:43.845) than output marker 'D:\acceleration\sample\ClassLibrary1\obj\Debug\net462\ClassLibrary1.csproj.CopyComplete' (2023-03-19 13:56:24.733), not up-to-date. (ClassLibrary1)
+5>FastUpToDate: This project appears to be a candidate for build acceleration. To opt in, set the 'AccelerateBuildsInVisualStudio' MSBuild property to 'true'. See https://aka.ms/vs-build-acceleration. (ClassLibrary1)
+5>------ Build started: Project: ClassLibrary1, Configuration: Debug Any CPU ------
+3>C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(1830,5): warning NU1702: ProjectReference 'D:\acceleration\sample\ClassLibrary3\ClassLibrary3.csproj' was resolved using '.NETFramework,Version=v4.6.2' instead of the project target framework '.NETCoreApp,Version=v6.0'. This project may not be fully compatible with your project.
+4>ConsoleApp2 -> D:\acceleration\sample\ConsoleApp2\bin\Debug\net6.0-windows\ConsoleApp2.dll
+3>ConsoleApp3 -> D:\acceleration\sample\ConsoleApp3\bin\Debug\net6.0-windows\ConsoleApp3.dll
+4>ConsoleApp2 -> D:\acceleration\sample\ConsoleApp2\bin\Debug\net462\ConsoleApp2.exe
+5>ClassLibrary1 -> D:\acceleration\sample\ClassLibrary1\bin\Debug\net462\ClassLibrary1.dll
+3>ConsoleApp3 -> D:\acceleration\sample\ConsoleApp3\bin\Debug\net462\ConsoleApp3.exe
+3>Done building project "ConsoleApp3.csproj".
+6>FastUpToDate: Checking configuration Debug|AnyCPU|net462: (ConsoleApp1)
+6>FastUpToDate:     Comparing timestamps of inputs and outputs: (ConsoleApp1)
+6>FastUpToDate:         No inputs are newer than earliest output 'D:\acceleration\sample\ConsoleApp1\bin\Debug\net462\ConsoleApp1.exe' (2023-03-19 13:56:24.967). Newest input is 'D:\acceleration\sample\ClassLibrary1\obj\Debug\net462\ref\ClassLibrary1.dll' (2023-03-19 13:56:24.731). (ConsoleApp1)
+6>FastUpToDate:     Comparing timestamps of copy marker inputs and outputs: (ConsoleApp1)
+6>FastUpToDate:         Write timestamp on output marker is 2023-03-19 13:56:24.969 on 'D:\acceleration\sample\ConsoleApp1\obj\Debug\net462\ConsoleApp1.csproj.CopyComplete'. (ConsoleApp1)
+6>FastUpToDate: Input marker 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll' is newer (2023-03-19 13:56:43.845) than output marker 'D:\acceleration\sample\ConsoleApp1\obj\Debug\net462\ConsoleApp1.csproj.CopyComplete' (2023-03-19 13:56:24.969), not up-to-date. (ConsoleApp1)
+6>FastUpToDate: This project appears to be a candidate for build acceleration. To opt in, set the 'AccelerateBuildsInVisualStudio' MSBuild property to 'true'. See https://aka.ms/vs-build-acceleration. (ConsoleApp1)
+6>------ Build started: Project: ConsoleApp1, Configuration: Debug Any CPU ------
+6>C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(1830,5): warning NU1702: ProjectReference 'D:\acceleration\sample\ClassLibrary1\ClassLibrary1.csproj' was resolved using '.NETFramework,Version=v4.6.2' instead of the project target framework '.NETCoreApp,Version=v6.0'. This project may not be fully compatible with your project.
+6>ConsoleApp1 -> D:\acceleration\sample\ConsoleApp1\bin\Debug\net462\ConsoleApp1.exe
+6>ConsoleApp1 -> D:\acceleration\sample\ConsoleApp1\bin\Debug\net6.0-windows\ConsoleApp1.dll
+6>Done building project "ConsoleApp1.csproj".
+========== Build: 5 succeeded, 0 failed, 1 up-to-date, 0 skipped ==========
+========== Build started at 1:56 PM and took 00,691 seconds ==========

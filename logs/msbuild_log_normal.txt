@@ -1,0 +1,279 @@
+Build started...
+1>FastUpToDate: Comparing timestamps of inputs and outputs: (ClassLibrary3)
+1>FastUpToDate:     No inputs are newer than earliest output 'D:\acceleration\sample\ClassLibrary3\bin\Debug\net462\ClassLibrary3.dll' (2023-03-19 14:06:32.982). Newest input is 'D:\acceleration\sample\Directory.Build.props' (2023-03-19 14:06:27.963). (ClassLibrary3)
+1>FastUpToDate: Project is up-to-date. (ClassLibrary3)
+2>FastUpToDate: Checking configuration Debug|AnyCPU|net462: (ClassLibrary2)
+2>FastUpToDate:     Comparing timestamps of inputs and outputs: (ClassLibrary2)
+2>FastUpToDate: Input Compile item 'D:\acceleration\sample\ClassLibrary2\Class2.cs' is newer (2023-03-19 14:06:37.142) than earliest output 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll' (2023-03-19 14:06:32.982), not up-to-date. (ClassLibrary2)
+2>------ Build started: Project: ClassLibrary2, Configuration: Debug Any CPU ------
+2>Build started 19.03.2023 14:06:39.
+2>Target DispatchToInnerBuilds:
+2>  Target GenerateTargetFrameworkMonikerAttribute:
+2>    Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+2>  Target CoreGenerateAssemblyInfo:
+2>    Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+2>  Target CoreCompile:
+2>    CompilerServer: server - server processed compilation - c160c5b7-4904-454e-96b4-7f5f5a04a534
+2>  Target CreateSatelliteAssemblies:
+2>  Target _CheckForLanguageAndFeatureCombinationSupport:
+2>    Target AddWindowsSdkKnownFrameworkReferences:
+2>      Copying file from "D:\acceleration\sample\ClassLibrary2\obj\Debug\net462\ClassLibrary2.dll" to "D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll".
+2>    Target ProcessFrameworkReferences:
+2>      ClassLibrary2 -> D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll
+2>      Copying file from "D:\acceleration\sample\ClassLibrary2\obj\Debug\net462\ClassLibrary2.pdb" to "D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.pdb".
+2>  Target GenerateTargetFrameworkMonikerAttribute:
+2>    Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+2>  Target CoreGenerateAssemblyInfo:
+2>    Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+2>  Target CoreCompile:
+2>    CompilerServer: server - server processed compilation - bac42d92-c120-43e9-93fd-68066e005c4c
+2>  Target GenerateBuildDependencyFile:
+2>    Skipping target "GenerateBuildDependencyFile" because all output files are up-to-date with respect to the input files.
+2>  Target CopyFilesToOutputDirectory:
+2>    Copying file from "D:\acceleration\sample\ClassLibrary2\obj\Debug\net6.0-windows\ClassLibrary2.dll" to "D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.dll".
+2>    ClassLibrary2 -> D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.dll
+2>    Copying file from "D:\acceleration\sample\ClassLibrary2\obj\Debug\net6.0-windows\ClassLibrary2.pdb" to "D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.pdb".
+2>
+2>Build succeeded.
+2>    0 Warning(s)
+2>    0 Error(s)
+2>
+2>Time Elapsed 00:00:00.13
+3>FastUpToDate: Checking configuration Debug|AnyCPU|net462: (ConsoleApp3)
+3>FastUpToDate:     Comparing timestamps of inputs and outputs: (ConsoleApp3)
+3>FastUpToDate:         No inputs are newer than earliest output 'D:\acceleration\sample\ConsoleApp3\bin\Debug\net462\ConsoleApp3.exe' (2023-03-19 14:06:33.493). Newest input is 'D:\acceleration\sample\ClassLibrary2\obj\Debug\net462\ref\ClassLibrary2.dll' (2023-03-19 14:06:32.982). (ConsoleApp3)
+3>FastUpToDate:     Comparing timestamps of copy marker inputs and outputs: (ConsoleApp3)
+3>FastUpToDate:         Write timestamp on output marker is 2023-03-19 14:06:33.500 on 'D:\acceleration\sample\ConsoleApp3\obj\Debug\net462\ConsoleApp3.csproj.CopyComplete'. (ConsoleApp3)
+3>FastUpToDate: Input marker 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll' is newer (2023-03-19 14:06:39.152) than output marker 'D:\acceleration\sample\ConsoleApp3\obj\Debug\net462\ConsoleApp3.csproj.CopyComplete' (2023-03-19 14:06:33.500), not up-to-date. (ConsoleApp3)
+3>FastUpToDate: This project appears to be a candidate for build acceleration. To opt in, set the 'AccelerateBuildsInVisualStudio' MSBuild property to 'true'. See https://aka.ms/vs-build-acceleration. (ConsoleApp3)
+3>------ Build started: Project: ConsoleApp3, Configuration: Debug Any CPU ------
+4>FastUpToDate: Checking configuration Debug|AnyCPU|net462: (ConsoleApp2)
+4>FastUpToDate:     Comparing timestamps of inputs and outputs: (ConsoleApp2)
+4>FastUpToDate:         No inputs are newer than earliest output 'D:\acceleration\sample\ConsoleApp2\bin\Debug\net462\ConsoleApp2.exe' (2023-03-19 14:06:33.192). Newest input is 'D:\acceleration\sample\ClassLibrary2\obj\Debug\net462\ref\ClassLibrary2.dll' (2023-03-19 14:06:32.982). (ConsoleApp2)
+4>FastUpToDate:     Comparing timestamps of copy marker inputs and outputs: (ConsoleApp2)
+4>FastUpToDate:         Write timestamp on output marker is 2023-03-19 14:06:33.192 on 'D:\acceleration\sample\ConsoleApp2\obj\Debug\net462\ConsoleApp2.csproj.CopyComplete'. (ConsoleApp2)
+4>FastUpToDate: Input marker 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll' is newer (2023-03-19 14:06:39.152) than output marker 'D:\acceleration\sample\ConsoleApp2\obj\Debug\net462\ConsoleApp2.csproj.CopyComplete' (2023-03-19 14:06:33.192), not up-to-date. (ConsoleApp2)
+4>FastUpToDate: This project appears to be a candidate for build acceleration. To opt in, set the 'AccelerateBuildsInVisualStudio' MSBuild property to 'true'. See https://aka.ms/vs-build-acceleration. (ConsoleApp2)
+4>------ Build started: Project: ConsoleApp2, Configuration: Debug Any CPU ------
+5>FastUpToDate: Comparing timestamps of inputs and outputs: (ClassLibrary1)
+5>FastUpToDate:     No inputs are newer than earliest output 'D:\acceleration\sample\ClassLibrary1\bin\Debug\net462\ClassLibrary1.dll' (2023-03-19 14:06:33.244). Newest input is 'D:\acceleration\sample\ClassLibrary2\obj\Debug\net462\ref\ClassLibrary2.dll' (2023-03-19 14:06:32.982). (ClassLibrary1)
+5>FastUpToDate: Comparing timestamps of copy marker inputs and outputs: (ClassLibrary1)
+5>FastUpToDate:     Write timestamp on output marker is 2023-03-19 14:06:33.253 on 'D:\acceleration\sample\ClassLibrary1\obj\Debug\net462\ClassLibrary1.csproj.CopyComplete'. (ClassLibrary1)
+5>FastUpToDate: Input marker 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll' is newer (2023-03-19 14:06:39.152) than output marker 'D:\acceleration\sample\ClassLibrary1\obj\Debug\net462\ClassLibrary1.csproj.CopyComplete' (2023-03-19 14:06:33.253), not up-to-date. (ClassLibrary1)
+5>FastUpToDate: This project appears to be a candidate for build acceleration. To opt in, set the 'AccelerateBuildsInVisualStudio' MSBuild property to 'true'. See https://aka.ms/vs-build-acceleration. (ClassLibrary1)
+5>------ Build started: Project: ClassLibrary1, Configuration: Debug Any CPU ------
+4>Build started 19.03.2023 14:06:39.
+3>Build started 19.03.2023 14:06:39.
+5>Build started 19.03.2023 14:06:39.
+4>Target DispatchToInnerBuilds:
+4>  Target ResolvePackageAssets:
+4>  Target AssignProjectConfiguration:
+4>    Target _GetProjectReferenceTargetFrameworkProperties:
+4>      Target GetTargetFrameworksWithPlatformFromInnerBuilds:
+4>    Target ResolveProjectReferences:
+3>Target DispatchToInnerBuilds:
+3>  Target _GetProjectReferenceTargetFrameworkProperties:
+3>    Target _CollectTargetFrameworkForTelemetry:
+3>      Target _GetProjectReferenceTargetFrameworkProperties:
+5>Target DispatchToInnerBuilds:
+5>  Target _GetProjectReferenceTargetFrameworkProperties:
+5>  Target ResolveProjectReferences:
+3>      C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(1830,5): warning NU1702: ProjectReference 'D:\acceleration\sample\ClassLibrary3\ClassLibrary3.csproj' was resolved using '.NETFramework,Version=v4.6.2' instead of the project target framework '.NETCoreApp,Version=v6.0'. This project may not be fully compatible with your project.
+3>    Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "ConsoleApp3.csproj".
+3>    Target ResolveProjectReferences:
+3>    Target _HandlePackageFileConflicts:
+3>    Target _WriteAppConfigWithSupportedRuntime:
+3>      Skipping target "_WriteAppConfigWithSupportedRuntime" because all output files are up-to-date with respect to the input files.
+3>    Target GenerateBindingRedirects:
+3>      No suggested binding redirects from ResolveAssemblyReferences.
+3>    Target GenerateTargetFrameworkMonikerAttribute:
+3>      Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+3>    Target CoreGenerateAssemblyInfo:
+3>      Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+3>    Target CoreCompile:
+3>      Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+3>    Target AssignTargetPaths:
+3>      Copying file from "D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll" to "D:\acceleration\sample\ConsoleApp3\bin\Debug\net462\ClassLibrary2.dll".
+3>      Copying file from "D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.pdb" to "D:\acceleration\sample\ConsoleApp3\bin\Debug\net462\ClassLibrary2.pdb".
+3>      Touching "D:\acceleration\sample\ConsoleApp3\obj\Debug\net462\ConsoleApp3.csproj.CopyComplete".
+3>    Target GetCopyToOutputDirectoryItems:
+3>      Target _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences:
+3>    Target _CopyAppConfigFile:
+3>      Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+3>    Target GenerateMSBuildEditorConfigFileShouldRun:
+3>      ConsoleApp3 -> D:\acceleration\sample\ConsoleApp3\bin\Debug\net462\ConsoleApp3.exe
+3>    Target GenerateTargetFrameworkMonikerAttribute:
+3>      Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+3>    Target CoreGenerateAssemblyInfo:
+3>      Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+3>  Done building target "_CleanGetCurrentAndPriorFileWrites" in project "ConsoleApp3.csproj".
+3>  Done building target "DesignTimeXamlMarkupCompilation" in project "ConsoleApp3.csproj".
+3>  Target CoreCompile:
+3>    Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+3>  Target _CreateAppHost:
+3>    Skipping target "_CreateAppHost" because all output files are up-to-date with respect to the input files.
+4>    Target GenerateTargetFrameworkMonikerAttribute:
+4>      Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+4>    Target CoreGenerateAssemblyInfo:
+4>      Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+4>    Target CoreCompile:
+4>      Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+4>    Target _CreateAppHost:
+4>      Skipping target "_CreateAppHost" because all output files are up-to-date with respect to the input files.
+4>    Target _CopyFilesMarkedCopyLocal:
+4>      Copying file from "D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.dll" to "D:\acceleration\sample\ConsoleApp2\bin\Debug\net6.0-windows\ClassLibrary2.dll".
+4>      Copying file from "D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.pdb" to "D:\acceleration\sample\ConsoleApp2\bin\Debug\net6.0-windows\ClassLibrary2.pdb".
+4>      Touching "D:\acceleration\sample\ConsoleApp2\obj\Debug\net6.0-windows\ConsoleApp2.csproj.CopyComplete".
+4>    Target GetCopyToOutputDirectoryItems:
+4>      Target _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences:
+4>    Target _CopyOutOfDateSourceItemsToOutputDirectory:
+4>      Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+4>    Target GenerateBuildDependencyFile:
+4>      Skipping target "GenerateBuildDependencyFile" because all output files are up-to-date with respect to the input files.
+4>    Target GenerateBuildRuntimeConfigurationFiles:
+4>      Skipping target "GenerateBuildRuntimeConfigurationFiles" because all output files are up-to-date with respect to the input files.
+4>    Target CopyFilesToOutputDirectory:
+4>      ConsoleApp2 -> D:\acceleration\sample\ConsoleApp2\bin\Debug\net6.0-windows\ConsoleApp2.dll
+4>  Target _WriteAppConfigWithSupportedRuntime:
+4>    Skipping target "_WriteAppConfigWithSupportedRuntime" because all output files are up-to-date with respect to the input files.
+4>  Target GenerateBindingRedirects:
+4>    No suggested binding redirects from ResolveAssemblyReferences.
+4>  Target GenerateTargetFrameworkMonikerAttribute:
+4>    Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+4>  Target CoreGenerateAssemblyInfo:
+4>    Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+4>  Target CoreCompile:
+4>    Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+4>  Target _CopyFilesMarkedCopyLocal:
+4>    Copying file from "D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.pdb" to "D:\acceleration\sample\ConsoleApp2\bin\Debug\net462\ClassLibrary2.pdb".
+4>    Copying file from "D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll" to "D:\acceleration\sample\ConsoleApp2\bin\Debug\net462\ClassLibrary2.dll".
+4>    Touching "D:\acceleration\sample\ConsoleApp2\obj\Debug\net462\ConsoleApp2.csproj.CopyComplete".
+4>  Target GetCopyToOutputDirectoryItems:
+4>    Target _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences:
+4>  Target _CopyAppConfigFile:
+4>    Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+4>  Target CopyFilesToOutputDirectory:
+4>    ConsoleApp2 -> D:\acceleration\sample\ConsoleApp2\bin\Debug\net462\ConsoleApp2.exe
+4>
+4>Build succeeded.
+4>    0 Warning(s)
+4>    0 Error(s)
+4>
+4>Time Elapsed 00:00:00.11
+5>  Target GenerateTargetFrameworkMonikerAttribute:
+5>    Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+5>  Target CoreGenerateAssemblyInfo:
+5>    Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+5>  Target CoreCompile:
+5>    Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+5>  Target _CopyFilesMarkedCopyLocal:
+5>    Copying file from "D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.pdb" to "D:\acceleration\sample\ClassLibrary1\bin\Debug\net462\ClassLibrary2.pdb".
+5>    Copying file from "D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll" to "D:\acceleration\sample\ClassLibrary1\bin\Debug\net462\ClassLibrary2.dll".
+5>    Touching "D:\acceleration\sample\ClassLibrary1\obj\Debug\net462\ClassLibrary1.csproj.CopyComplete".
+5>  Target GetCopyToOutputDirectoryItems:
+5>    Target _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences:
+5>  Target CopyFilesToOutputDirectory:
+5>    ClassLibrary1 -> D:\acceleration\sample\ClassLibrary1\bin\Debug\net462\ClassLibrary1.dll
+5>
+5>Build succeeded.
+5>    0 Warning(s)
+5>    0 Error(s)
+5>
+5>Time Elapsed 00:00:00.10
+3>  Target _CopyFilesMarkedCopyLocal:
+3>    Copying file from "D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.pdb" to "D:\acceleration\sample\ConsoleApp3\bin\Debug\net6.0-windows\ClassLibrary2.pdb".
+3>    Copying file from "D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.dll" to "D:\acceleration\sample\ConsoleApp3\bin\Debug\net6.0-windows\ClassLibrary2.dll".
+3>    Touching "D:\acceleration\sample\ConsoleApp3\obj\Debug\net6.0-windows\ConsoleApp3.csproj.CopyComplete".
+3>  Target GetCopyToOutputDirectoryItems:
+3>    Target _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences:
+3>  Target _CopyOutOfDateSourceItemsToOutputDirectory:
+3>    Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+3>  Target GenerateBuildDependencyFile:
+3>    Skipping target "GenerateBuildDependencyFile" because all output files are up-to-date with respect to the input files.
+3>  Target GenerateBuildRuntimeConfigurationFiles:
+3>    Skipping target "GenerateBuildRuntimeConfigurationFiles" because all output files are up-to-date with respect to the input files.
+3>  Target CopyFilesToOutputDirectory:
+3>    ConsoleApp3 -> D:\acceleration\sample\ConsoleApp3\bin\Debug\net6.0-windows\ConsoleApp3.dll
+3>
+3>  Done building project "ConsoleApp3.csproj".
+3>
+3>Build succeeded.
+3>
+3>C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(1830,5): warning NU1702: ProjectReference 'D:\acceleration\sample\ClassLibrary3\ClassLibrary3.csproj' was resolved using '.NETFramework,Version=v4.6.2' instead of the project target framework '.NETCoreApp,Version=v6.0'. This project may not be fully compatible with your project.
+3>    1 Warning(s)
+3>    0 Error(s)
+3>
+3>Time Elapsed 00:00:00.12
+6>FastUpToDate: Checking configuration Debug|AnyCPU|net462: (ConsoleApp1)
+6>FastUpToDate:     Comparing timestamps of inputs and outputs: (ConsoleApp1)
+6>FastUpToDate:         No inputs are newer than earliest output 'D:\acceleration\sample\ConsoleApp1\bin\Debug\net462\ConsoleApp1.exe' (2023-03-19 14:06:33.392). Newest input is 'D:\acceleration\sample\ClassLibrary1\obj\Debug\net462\ref\ClassLibrary1.dll' (2023-03-19 14:06:33.244). (ConsoleApp1)
+6>FastUpToDate:     Comparing timestamps of copy marker inputs and outputs: (ConsoleApp1)
+6>FastUpToDate:         Write timestamp on output marker is 2023-03-19 14:06:33.392 on 'D:\acceleration\sample\ConsoleApp1\obj\Debug\net462\ConsoleApp1.csproj.CopyComplete'. (ConsoleApp1)
+6>FastUpToDate: Input marker 'D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll' is newer (2023-03-19 14:06:39.152) than output marker 'D:\acceleration\sample\ConsoleApp1\obj\Debug\net462\ConsoleApp1.csproj.CopyComplete' (2023-03-19 14:06:33.392), not up-to-date. (ConsoleApp1)
+6>FastUpToDate: This project appears to be a candidate for build acceleration. To opt in, set the 'AccelerateBuildsInVisualStudio' MSBuild property to 'true'. See https://aka.ms/vs-build-acceleration. (ConsoleApp1)
+6>------ Build started: Project: ConsoleApp1, Configuration: Debug Any CPU ------
+6>Build started 19.03.2023 14:06:39.
+6>Target DispatchToInnerBuilds:
+6>  Target ProcessFrameworkReferences:
+6>  Target _GetProjectReferenceTargetFrameworkProperties:
+6>    Target _GetProjectReferenceTargetFrameworkProperties:
+6>      Target GetTargetFrameworksWithPlatformFromInnerBuilds:
+6>      C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(1830,5): warning NU1702: ProjectReference 'D:\acceleration\sample\ClassLibrary1\ClassLibrary1.csproj' was resolved using '.NETFramework,Version=v4.6.2' instead of the project target framework '.NETCoreApp,Version=v6.0'. This project may not be fully compatible with your project.
+6>    Done building target "_GetProjectReferenceTargetFrameworkProperties" in project "ConsoleApp1.csproj".
+6>    Target ResolveProjectReferences:
+6>    Target ResolveTargetingPackAssets:
+6>    Target _WriteAppConfigWithSupportedRuntime:
+6>      Skipping target "_WriteAppConfigWithSupportedRuntime" because all output files are up-to-date with respect to the input files.
+6>    Target GenerateBindingRedirects:
+6>      No suggested binding redirects from ResolveAssemblyReferences.
+6>    Target GenerateTargetFrameworkMonikerAttribute:
+6>      Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+6>    Target CoreGenerateAssemblyInfo:
+6>      Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+6>    Target CoreCompile:
+6>      Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+6>    Target _CopyFilesMarkedCopyLocal:
+6>      Copying file from "D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.pdb" to "D:\acceleration\sample\ConsoleApp1\bin\Debug\net462\ClassLibrary2.pdb".
+6>      Copying file from "D:\acceleration\sample\ClassLibrary2\bin\Debug\net462\ClassLibrary2.dll" to "D:\acceleration\sample\ConsoleApp1\bin\Debug\net462\ClassLibrary2.dll".
+6>      Touching "D:\acceleration\sample\ConsoleApp1\obj\Debug\net462\ConsoleApp1.csproj.CopyComplete".
+6>    Target GetCopyToOutputDirectoryItems:
+6>      Target CopyAdditionalFiles:
+6>      Target AssignTargetPaths:
+6>    Target _CopyAppConfigFile:
+6>      Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+6>    Target CopyFilesToOutputDirectory:
+6>      ConsoleApp1 -> D:\acceleration\sample\ConsoleApp1\bin\Debug\net462\ConsoleApp1.exe
+6>
+6>    Done building project "ConsoleApp1.csproj".
+6>  Target GenerateTargetFrameworkMonikerAttribute:
+6>    Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+6>  Target CoreGenerateAssemblyInfo:
+6>    Skipping target "CoreGenerateAssemblyInfo" because all output files are up-to-date with respect to the input files.
+6>  Target CoreCompile:
+6>    Skipping target "CoreCompile" because all output files are up-to-date with respect to the input files.
+6>  Target _CreateAppHost:
+6>    Skipping target "_CreateAppHost" because all output files are up-to-date with respect to the input files.
+6>  Target _CopyFilesMarkedCopyLocal:
+6>    Copying file from "D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.pdb" to "D:\acceleration\sample\ConsoleApp1\bin\Debug\net6.0-windows\ClassLibrary2.pdb".
+6>    Copying file from "D:\acceleration\sample\ClassLibrary2\bin\Debug\net6.0-windows\ClassLibrary2.dll" to "D:\acceleration\sample\ConsoleApp1\bin\Debug\net6.0-windows\ClassLibrary2.dll".
+6>    Touching "D:\acceleration\sample\ConsoleApp1\obj\Debug\net6.0-windows\ConsoleApp1.csproj.CopyComplete".
+6>  Target GetCopyToOutputDirectoryItems:
+6>    Target _GetCopyToOutputDirectoryItemsFromTransitiveProjectReferences:
+6>  Target _CopyOutOfDateSourceItemsToOutputDirectory:
+6>    Skipping target "_CopyOutOfDateSourceItemsToOutputDirectory" because all output files are up-to-date with respect to the input files.
+6>  Target GenerateBuildDependencyFile:
+6>    Skipping target "GenerateBuildDependencyFile" because all output files are up-to-date with respect to the input files.
+6>  Target GenerateBuildRuntimeConfigurationFiles:
+6>    Skipping target "GenerateBuildRuntimeConfigurationFiles" because all output files are up-to-date with respect to the input files.
+6>  Target CopyFilesToOutputDirectory:
+6>    ConsoleApp1 -> D:\acceleration\sample\ConsoleApp1\bin\Debug\net6.0-windows\ConsoleApp1.dll
+6>
+6>Build succeeded.
+6>
+6>C:\Program Files\Microsoft Visual Studio\2022\Professional\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(1830,5): warning NU1702: ProjectReference 'D:\acceleration\sample\ClassLibrary1\ClassLibrary1.csproj' was resolved using '.NETFramework,Version=v4.6.2' instead of the project target framework '.NETCoreApp,Version=v6.0'. This project may not be fully compatible with your project.
+6>    1 Warning(s)
+6>    0 Error(s)
+6>
+6>Time Elapsed 00:00:00.07
+========== Build: 5 succeeded, 0 failed, 1 up-to-date, 0 skipped ==========
+========== Build started at 2:06 PM and took 00,889 seconds ==========
